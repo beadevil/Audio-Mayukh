@@ -6,7 +6,7 @@ def save_empty_dataframe():
     df = pd.DataFrame()
 
     # Save the DataFrame as an Excel file
-    file_path = 'path/to/save/file.xlsx'
+    file_path = 'file.xlsx'
     df.to_excel(file_path, index=False)
 
     # Display a success message
@@ -14,7 +14,7 @@ def save_empty_dataframe():
 
 def read_excel_file():
     # Read the Excel file as a DataFrame
-    file_path = 'path/to/excel/file.xlsx'
+    file_path = 'file.xlsx'
     df = pd.read_excel(file_path)
 
     # Display the DataFrame
